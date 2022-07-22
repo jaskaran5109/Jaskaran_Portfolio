@@ -1,0 +1,45 @@
+.aboutContainer{
+    width:100vw;
+    text-align: center !important;
+    margin-top:30px;
+
+}
+
+div > .about-image{
+    width:200px;
+    border-radius: 50%;
+}
+.text-about{
+    margin-left: 17%;
+    margin-right: 17%;
+    width:65%;
+}
+.social-icon{
+    width:100vw;
+    justify-content: center;
+}
+.icon-code{
+    width:60px;
+    padding: 10px;
+}
+
+.github-button{
+    background-color: rgb(255, 255, 255);
+    padding:10px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    margin:20px;
+    width: 100px;
+}
+.github-button:hover{
+    background:url('../../Assets/img/banner-bg.png');
+    color: white;
+    border:1px solid rgb(255, 255, 255);
+    transition: 5ms;
+}
+@media screen and (max-width: 600px) {
+    .icon-code{
+        width:50px;
+        padding: 10px;
+    }   
+  }

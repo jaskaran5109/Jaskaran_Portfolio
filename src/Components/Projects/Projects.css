@@ -1,0 +1,43 @@
+.projects{
+    background: url('../../Assets/img/color-sharp2.png'),url('../../Assets/img/color-sharp.png');
+    background-position:center top, right top, center bottom;
+	background-repeat:no-repeat, repeat-x, repeat-y;
+    background-size: cover;
+    padding: 30px;
+}
+div > h1{
+   text-align: center;
+}
+.cardFlex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px !important;
+}
+.card-text{
+    text-decoration: none !important;
+    text-align: center;
+}
+.card{
+    width:250px;
+    background-color: black;
+    margin: 20px;
+    border-radius: 30px ;
+    text-decoration: none !important;
+    color: white;
+}
+.card:hover{
+    text-decoration: none !important;
+}
+.card >img{
+    width:auto;
+    height: 200px;
+    border-radius: 30px 30px 0 0;
+}
+.background-image-left {
+    top: 28%;
+    position: absolute;
+    bottom: 0;
+    width: 20%;
+    z-index: -4;
+  }
