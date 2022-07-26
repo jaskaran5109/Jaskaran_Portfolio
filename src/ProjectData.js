@@ -9,9 +9,15 @@ import Netflix from './Assets/img/netflix.jpg'
 import Youtube from './Assets/img/youtube.jpg'
 import Covid from './Assets/img/covid.jpg'
 import EcommerceAI from './Assets/img/EcommerceAI.jpg'
+import Ecommerce from './Assets/img/Ecommerce.jpg'
 
 
 export const ProjectData=[
+    {
+        image:Ecommerce,
+        link:"https://ecommerce-mern-web.herokuapp.com/",
+        heading:"Ecommerce MERN Stack Website"
+    }, 
     {
         image:JavaProgram,
         link:"https://play.google.com/store/apps/details?id=com.app.javaprog",

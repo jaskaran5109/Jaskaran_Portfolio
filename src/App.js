@@ -1,4 +1,5 @@
 import './App.css';
+import React from 'react';
 import Header from './Components/Header/Header';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Banner from './Components/Banner/Banner';

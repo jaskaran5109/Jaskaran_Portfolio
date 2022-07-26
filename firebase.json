@@ -1,6 +1,8 @@
 {
   "hosting": {
     "public": "build",
+    "site": "jaskaran-profile",
+    "homepage":"https://jaskaran-profile.web.app",
     "ignore": [
       "firebase.json",
       "**/.*",
